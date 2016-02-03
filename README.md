@@ -5,7 +5,7 @@
 It is an assignment for "CMPS140: Artificial Intelligence" - Winter 2016 class at University of California Santa Cruz.
 My goal was to implement some search functions in multiAgents.py
 
-# evaluationFunction(self, currentGameState, action) in the ReflexAgent(Agent) classs 
+**evaluationFunction(self, currentGameState, action) in the ReflexAgent(Agent) classs** 
 This function helps to Pac-Man to behave "rationally." The main idea is that the Pat-Man should not meet the Ghost and he wants to eat!
 Thus, from the set of available action Pat-Man choses the action which leads to having some food and where hi will not meet the Ghost.
  My main innovation here is that we do not worry about distance between Pat-Man and Ghost when the distance is bigger than 2.

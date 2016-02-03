@@ -34,5 +34,7 @@ python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
 **Function getAction(self, gameState) in the ExpectimaxAgent(MultiAgentSearchAgent)**
 
 Actually, the ghosts act randomly and are of not optimal minimax agents.
-Thus, now Pat-man will "understand" that  he should think about a "chance" and act according Expect Max algorithm. To run:
+Thus, now Pat-man will "understand" that  he should think about a "chance" and act according Expect Max algorithm. 
+
+To run:
 python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 

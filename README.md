@@ -18,8 +18,11 @@ Thus, from the set of available action Pat-Man choses the action which leads to 
 
 This function implements an adversarial search (minimax search).
 Now Pat-Man thinks that Ghosts are "rational" agents. Pat-Man is trying to increase his benefits and thinks that Ghosts are trying to decrease his benefits. 
-Pat-man evaluates the situation for some next steps. To run this function with evaluating next 4 steps, type:
+Pat-man evaluates the situation for some next steps. 
+
+To run this function with evaluating next 4 steps, type:
 python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+
 The game is running to slow since we expand to much nodes - we will fix it in the next function.
 
 **Function getAction(self, gameState) in the AlphaBetaAgent(MultiAgentSearchAgent) class**
